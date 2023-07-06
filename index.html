@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Groceries</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+<body>
+    <header id="banner">
+        <section class="headNav">
+            <a href="">
+                <img src="assets/logo.avif" class="logo">
+            </a>
+            <nav class="navigation">
+                <a href="#banner">Home</a>
+                <a href="#ourPackages">Our Package</a>
+                <a href="#calltoAction">Call Us</a>
+            </nav>
+        </section>
+        <hr>
+        <section class="headTitle">
+            <h1>Top Rated E-Groceries Shop in Indonesia</h1>
+            <h4 id="headSubtitle">Every Day with Best Ingredients</h4>
+        </section>
+    </header>
+    <main>
+        <section class="reviewCallUs">
+            <article class="article">
+                <table class="table">
+                    <tr>
+                        <td colspan="2">
+                            <img class="imgrvw" src="assets/review.avif">
+                            <img class="imgrvw" src="assets/banner2.avif">
+                            <img class="imgrvw" src="assets/banner3.avif">
+
+                            <!-- <button onclick="plusDivs(-1)">Previous</button>
+                            <button onclick="plusDivs(1)">Next</button> -->
+                            
+                            <h5 id="comment">Belanja terus disini karena sayur buahnya fresh!</h5>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img class="profile" src="assets/blank-profile-picture.webp">
+                        </td>
+                        <td id="profesi-review">
+                            <h5> Florence Hughes</h5>
+                            <p>Ibu Rumah Tangga, 28</p>
+                        </td>
+                    </tr>
+                </table>
+            </article>
+            <section class="contact">
+                <h3>Contact Us</h4>
+                <h5>Sales akan menghubungi Anda 1 x 24 jam setelah data diterima. </h5>
+                <form  name="messages-contact" onsubmit="return validateForm()">
+                    <label>Your Name:</label>
+                    <Input type="text" placeholder="First and last name" name="full-name"><br><br>
+                    <label>Email Address:</label><br>
+                    <Input type="text" placeholder="example@email.com" name="email"><br><br>
+                    <label>Phone Number:</label>
+                    <input type="number" placeholder="Your Phone Number" name="phone-number"><br><br>
+                    <label>Messages:</label>
+                    <input id="messages" type="text" placeholder="Write Messages..." name="messages"><br><br><br>
+                    <input id="submit-contact" type="submit" value="Send"></input>
+                    <p>
+                </form>
+            </section>
+        </section>
+        <span id="sender-full-name"></span></p>
+        <span id="sender-email"></span></p>
+        <span id="sender-phone-number"></span></p>
+        <span id="sender-messages"></span></p>
+        <section class="benefits">
+            <h4>Dengan menggunakan layanan kami, Anda bisa mendapatkan jutaan keuntungan yang menanti Anda </h4>
+            <p>
+                <ul style="list-style-type: square;">
+                    <li>Promo besar-besaran SETIAP MINGGU</li>
+                </ul>
+                <ul style="list-style-type: square;">
+                    <li>Diskon 60% SETIAP HARI mulai pukul 09:00 WIB</li>
+                </ul>
+                <ul style="list-style-type: square;">
+                    <li>Menjadi member untuk KEUNTUNGAN lebih BESAR</li>
+                </ul>
+            </p>
+        </section>
+
+        <section id="ourPackages">
+            <h3>OUR PACKAGES</h3>
+        </section>
+
+        <section class="Package">
+            <table class="tablepackage">
+                <tr>
+                    <td class="icon">
+                        <i class="material-icons" style="font-size:36px">wb_incandescent</i>
+                    </td>
+                    <td>
+                        <h4>Fresh Vegetable</h4>
+                        <p>Sayuran segar langsung dari pertanian terbaik</p>
+                    </td>
+                    <td class="icon">
+                        <i class="material-icons" style="font-size:36px">wb_incandescent</i>
+                    </td>
+                    <td>
+                        <h4>Fresh Fruit</h4>
+                        <p>Buah dengan kualitas terbaik dari local atau impor dan harga yang menarik </p>
+                    </td>
+                    <td class="icon">
+                        <i class="material-icons" style="font-size:36px">wb_incandescent</i>
+                    </td>
+                    <td>
+                        <h4>Instan Delivery</h4>
+                        <p>Dikirim instan oleh kurir yang telah di training dengan SOP untuk menjaga kondisi belanja kamu</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="icon">
+                        <i class="material-icons" style="font-size:36px">wb_sunny</i>
+                    </td>
+                    <td>
+                        <h4>Kitchen Ingredient</h4>
+                        <p>Bumbu dapur lengkap untuk keperluan memasak kamu</p>
+                    </td>
+                    <td class="icon">
+                        <i class="material-icons" style="font-size:36px">wb_sunny</i>
+                    </td>
+                    <td>
+                        <h4>Kitchen Set</h4>
+                        <p>Segala jenis alat masak untuk membantu kamu memasak</p>
+                    </td>
+                    <td class="icon">
+                        <i class="material-icons" style="font-size:36px">wb_sunny</i>
+                    </td>
+                    <td>
+                        <h4>Bundling Set</h4>
+                        <p>Bingung masak apa? Sudah tersedia paket untuk kamu masak di dapurmu</p>
+                    </td>
+                </tr>
+            </table>           
+        </section>
+        <section id="calltoAction">
+            <h2>DAFTAR SEKARANG</h2>
+            <a href="default.asp" target="_blank">Call to Action</a>
+        </section>
+        <script src="script.js"></script>
+    </main>
+
+    <footer style="padding-top: 50px;">
+        <hr>
+        <table class="footer">
+            <tr>
+                <td colspan="2">Moqups</td>
+            </tr>
+            <tr>
+                <td>Term of Service</td>
+                <td>Privacy Policy</td>
+            </tr>
+            <tr>
+                <td colspan="2">@2019  Moqups</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
